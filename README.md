@@ -4,20 +4,17 @@
 集合了golang API开发中常用的异常码和异常提示信息。
 
 #### 软件架构
-软件架构说明
-
+包含2个文件：
+1.  exception.go：异常码和异常提示信息
+2.  types.go：公共类
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  生成一个新的异常使用New方法；
+2.  1开头为系统异常，2开头为数据库异常，3开头为网络异常，4开头为业务异常；5开头为其他异常。  
+
 
 #### 参与贡献
 
@@ -29,9 +26,3 @@
 
 #### 特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
