@@ -4,7 +4,7 @@ func (e *Exception) Error() string {
 	return e.Msg
 }
 
-func New(code int, msg string) *Exception {
+func New(code int64, msg string) *Exception {
 	return &Exception{
 		Code: code,
 		Msg:  msg,
