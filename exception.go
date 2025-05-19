@@ -49,6 +49,7 @@ var (
 	EX_EMAIL_EXISTED  = New(4014, "邮箱已存在")
 	EX_USER_EXISTED   = New(4015, "用户已存在")
 	EX_REQUEST_LIMIT  = New(4016, "请求太频繁了")
+	EX_INPUT          = New(4017, "输入格式错误")
 	//其他错误
 
 )
