@@ -36,7 +36,7 @@ var (
 	EX_NOT_FOUND      = New(4001, "资源不存在")
 	EX_FORBIDDEN      = New(4002, "无权限访问")
 	EX_USER_UNKNOWN   = New(4003, "用户不存在")
-	EX_LOGIN          = New(4004, "账号或密码错误")
+	EX_LOGIN          = New(4004, "登录失败")
 	EX_PARAM          = New(4005, "参数错误")
 	EX_VALID          = New(4006, "验证失败")
 	EX_CODE           = New(4007, "验证码错误")
